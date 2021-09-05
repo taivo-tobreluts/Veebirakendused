@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>veebiarendus</title>
+        <meta charset="UTF-8">
+        <meta name="author" content="Taivo Tobreluts">
+        <meta name="keywords" content="Noorem tarkvaraarendaja, veebiarendus, html, css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+        <!--
+    ###########################################################################
+      ______      _                ______      __              __      __      
+     /_  __/___ _(_)   ______     /_  __/___  / /_  ________  / /_  __/ /______
+      / / / __ `/ / | / / __ \     / / / __ \/ __ \/ ___/ _ \/ / / / / __/ ___/
+     / / / /_/ / /| |/ / /_/ /    / / / /_/ / /_/ / /  /  __/ / /_/ / /_(__  ) 
+    /_/  \__,_/_/ |___/\____/    /_/  \____/_.___/_/   \___/_/\__,_/\__/____/  
+                                                                           
+    ###########################################################################    
+        -->
+    </head>
+    
+    <body>
+        <style>
+            body {
+                background-color: #0254A6; 
+                color: white;
+                }
+            a:link, a:visited {
+            background-color: #f44336;
+            color: white;
+            padding: 15px 25px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+                }
+            a:hover, a:active {
+            background-color: red;
+                }
+            footer {
+            text-align: center;
+            padding: 3px;
+            color: rgb(189, 184, 183);
+                }
+            form {
+                width: 20%;
+                }
+            input {
+                width: 70%;
+                }
+            table {
+                width: 70%;
+                }
+            p {
+                width: 80%;
+                }
+        </style>
+    
+        <h1>
+            Noorem tarkvaraarendaja eriala õpingud
+        </h1>
+        <p>
+            Oskan täna natuke programeerida Python'is ja Java's, mõningane arusaam on andmebaasidest ja veebilehtedest.
+            Poole aasta pärast võiks olla palju parem põhi all kõigis eelnimetatud keeltes (ja ka keeltes mis ei ole veel mainitud). Parem arusaam IT tööturust Eestis, ning interaktiivne portfoolio ja veebisait millega praktikale asuda.
+            Kahe aasta pärast peaks mul olema hea idee kuidas luua ja täiendada keerukaid interaktiivseid veebilehti. Lisaks peaks mul olema oskus luua veebilehtedele andmebaase ja muid serveripoolseid programme.
+        </p>
+        <p style="color:yellow">
+            Hea tarkvaraarendaja isikuomadused: <br> 
+            hea mälu, uudishimu, tehniline taip, meelekindlus, suhtlemisoskus <br>
+            <i>Tarkvaararendajal peab olema projektist terviklikum ülevaade, sest tema disainib arvutiprogrammi, mis peaks tellija soovidele vastavalt töötama. Programmeerija tegeleb talle ülesandeks antud kitsama töölõiguga ja kirjutab koodi, mis selle arvutiprogrammi osana tööle peab hakkama.</i>
+        </p>
+        <a href="https://khk.ee/eriala/noorem-tarkvaraarendaja-2/">Noorem tarkvaraarendaja Tartu KHK</a>
+        <img src="logo.jpg" alt="Tartu Kutsehariduskeskuse logo">
+        <table>
+            <tbody>
+                <tr>
+                    <th>Info</th>
+                    <th>Reeglid</th>
+                </tr>
+                <tr>
+                    <td>Olen Taivo Tobreluts ja õpin Tartu Kutsehariduskeskuses noorem tarkvaraarendaja erialal. Kõik IKT serveris olevad failid on loodud õppe eesmärgil.
+                    </td>
+                    <td>Õppetöö ajal loodud veebilehtedele info lisamisel tuleb järgida autoriõiguse seadust - ehk kasutatud tekstidele, piltidele tuleb viidata. Iga õppija vastutab ise veebilehele lisatud info eest. Soovitav on kasutada õppija enda tehtud fotosid või pilte mille kasutamiseks on luba (või tasuta pildipangad). Sama kehtib ka tekstilise info lisamisel. </td>
+                </tr>
+                <tr>
+                    <td>I am Taivo Tobreluts and I am studying at Tartu Vocational Education Center as a junior software developer. All files on the ICT server are created for learning purposes. </td>
+                    <td>When adding information to websites created during studies, the copyright law must be observed - ie the texts and images used must be referenced. Each student is responsible for the information added to the website. It is recommended to use photos or pictures taken by the student himself / herself that have permission to use them (or free image banks). The same goes for adding textual information.</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <form>
+            <fieldset>
+                <legend>Kohustuslik info</legend>
+                    <label for="fname">Kasutajanimi:</label><br>
+                    <input type="text" id="aname" placeholder="siia kasutajanimi"><br>
+                    <label for="lname">Parool:</label><br>
+                    <input type="text" id="bname" placeholder="min 8 märki"><br>
+                    <label for="cname">E-kiri:</label><br>
+                    <input type="text" id="cname" placeholder="emailile saadetakse kinnitus"><br>
+            </fieldset>
+            <fieldset>
+                <legend>Lisa info</legend>
+                <label for="lname">Veebiaadress:</label><br>
+                <input type="text" id="dname"><br>
+            </fieldset>
+        </form>
+        <button type="button">puhasta väljad</button>
+        <button type="button">registreeru</button> 
+    </body>
+    <footer>
+        <p>Copyright © 2021 Taivo Tobreluts</p>
+    </footer>
+</html>
+
